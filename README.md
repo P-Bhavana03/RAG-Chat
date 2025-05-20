@@ -83,3 +83,42 @@ streamlit run app.py
 - Documents are stored in a local ChromaDB vector store
 - All processing is done locally after initial document upload
 - Source citations are provided for each response
+
+## Citations and Acknowledgments
+
+This project was developed using the following resources and tools:
+
+1. Google Generative AI (Gemini)
+   - Used for text embeddings and language model capabilities
+   - Documentation: https://ai.google.dev/docs
+   - Models: Gemini model and text-embedding-004
+   - API Reference: https://ai.google.dev/api
+
+2. LangChain Framework
+   - Used for building the RAG pipeline
+   - Documentation: https://python.langchain.com/docs
+   - Components used:
+     - LangChain Core
+     - LangChain Google Generative AI
+     - LangChain Chroma
+     - LangChain Community
+
+3. Streamlit
+   - Used for building the web interface
+   - Documentation: https://docs.streamlit.io
+   - Components used:
+     - Streamlit Chat
+     - Streamlit File Uploader
+     - Streamlit Session State
+
+4. Development Tools
+   - Cline
+     - Used for code assistance and suggestions
+     - Documentation: https://github.com/cline/cline
+     - Assisted with:
+       - Code structure and organization
+       - Error handling and edge cases
+       - Documentation and comments
+   - ChromaDB for vector storage
+   - PyPDF for PDF processing
+   - Python-dotenv for environment management
