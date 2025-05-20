@@ -20,6 +20,9 @@ from vector_store import (
 )
 from rag_chain import get_llm, create_rag_chain
 
+# Ensure temporary upload directory exists
+os.makedirs(UPLOAD_TEMP_DIR, exist_ok=True)
+
 st.set_page_config(page_title="Dynamic Doc Chatbot", layout="wide")
 st.title("📄 Dynamic RAG Chatbot with ChromaDB & Gemini")
 st.write("Upload PDF documents, ask questions, and manage embeddings.")

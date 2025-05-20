@@ -1,0 +1,68 @@
+Sample Questions and Responses for RAG Chatbot
+============================================
+
+This file contains sample interactions with the RAG-based chatbot to demonstrate its capabilities.
+
+
+Question 1: "What are the types of nail laquers?"
+Response: - Azole Antifungals
+- Fluconazole (mentioned as an effective type within Azole Antifungals)
+- Ketoconazole (mentioned as an older azole)
+
+Source: [
+    Source 1: 'Thesis.pdf' (Page: 1)
+    Source 2: 'Thesis.pdf' (Page: 3)
+    Source 3: 'Evaluation(1).pdf' (Page: 2)
+]
+
+Question 2: "What are the evaluation parameters?"
+Response: 
+1. Organoleptic evaluation (including physical appearance, color, and odour)
+2. Grittiness
+3. Drying time
+4. Gloss
+5. Smoothness to flow
+6. Water resistance
+7. Lacquer film thickness
+
+Source: [
+    Source 1: 'Evaluation(1).pdf' (Page: 1)
+    Source 2: 'Evaluation(1).pdf' (Page: 1)
+    Source 3: 'Evaluation(1).pdf' (Page: 2)
+]
+
+Question 3: "What are the advantages of nail lacquers?"
+Response: 
+1. Creates a reservoir of medication on the nail.
+2. Facilitates the penetration of medication into the nail plate.
+3. Creates a durable, protective film resistant to daily wear and tear.
+4. Offers targeted treatment for nail infections.
+5. Provides protection against breakage, keeping nails strong and intact.
+
+Source: [
+    Source 1: 'Thesis.pdf' (Page: 3)
+    Source 2: 'Thesis.pdf' (Page: 3)
+    Source 3: 'Evaluation(1).pdf' (Page: 2)
+]
+
+Question 4: "What are the functions?"
+Response: 
+1. Creates a reservoir of medication on the nail.
+2. Facilitates the penetration of the drug into the nail plate.
+3. Creates a durable, protective film resistant to daily wear and tear.
+4. A durable finish that resists scratches and water damage.
+
+Source: [
+    Source 1: 'Thesis.pdf' (Page: 3)
+    Source 2: 'Evaluation(1).pdf' (Page: 1)
+    Source 3: 'Evaluation(1).pdf' (Page: 2)
+]
+
+Question 5: "Give the extraction mehtod of seeds"
+Response: Based on the text provided, the extraction method for fenugreek seeds involved first grinding the seeds into a coarse powder. This powder was then defatted by soaking in petroleum ether for three days, followed by filtering and washing the solid residue with water. The residue was subsequently soaked in ethanol for five days with occasional stirring. Finally, the mixture was filtered, and the resulting filtrate was evaporated at 30°C to obtain the fenugreek seed extract.
+
+Source: [
+    Source 1: 'Thesis.pdf' (Page: 4)
+    Source 2: 'Evaluation(1).pdf' (Page: 1)
+    Source 3: 'Evaluation(1).pdf' (Page: 1)
+]

@@ -10,11 +10,11 @@ UPLOAD_TEMP_DIR = os.path.join(PROJECT_ROOT, "temp_uploads")
 
 CHROMA_PERSIST_DIR = os.path.join(PROJECT_ROOT, "chroma_db")
 COLLECTION_NAME = "document_collection"
-EMBEDDING_MODEL_NAME = "models/gemini-embedding-exp-03-07"
-LLM_MODEL_NAME = "gemini-2.5-pro-preview-03-25"
+EMBEDDING_MODEL_NAME = "models/text-embedding-004"
+LLM_MODEL_NAME = "gemini-2.5-flash-preview-04-17"
 LLM_TEMPERATURE = 0.7
-CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 150
+CHUNK_SIZE = 512
+CHUNK_OVERLAP = 30
 
 RETRIEVER_SEARCH_K = 3
 METADATA_SOURCE_KEY = "source_doc_filename"
