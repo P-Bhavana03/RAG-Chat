@@ -2,6 +2,11 @@ import streamlit as st
 import os
 import time
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 from config import (
     GOOGLE_API_KEY,
     CHUNK_SIZE,
